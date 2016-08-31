@@ -28,7 +28,7 @@ PUSHD "%BATCH_DIR%%TARGET%\resources"
 robocopy "%BATCH_DIR%\DAILmergeGQ" "%BATCH_DIR%%TARGET%" /S /NFL /NDL
 ECHO call updatearcs.bat
 call updatearcs.bat
-del /Q updatearcs
+del /Q updatearcs.bat
 POPD
 GOTO :EOF
 
